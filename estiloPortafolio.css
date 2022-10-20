@@ -1,8 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    border: 1px solid red;
-    /*display: flex;*/
+    /*border: 1px solid red;*/
     font-family: Arial;
 }
 .Inicio {
@@ -38,6 +37,7 @@
   #Conocimientos, #Educacion, #QuienSoy, #Experiencia, #TrabajosRecientes, #Contacto {
     padding: 10px;
     height: 850px;
+    margin-left: 200px;
   }
 
   
@@ -55,17 +55,19 @@
 */
 
 
-.Contacto-Titulo {
-  padding: 20px 0px 0px 200px;
-}
 
 .Inicio-img {
   display:flexbox;
 }
+
+
 #Contacto {
   display: flex;
   margin-top: 20px;
   height: 500px;
+}
+.Contacto-Titulo {
+  padding: 20px 0px 0px 20px;
 }
 .Contacto-input {
   display: block;
@@ -87,11 +89,39 @@
 }
 .Contacto-input-largo {
   width: 470px;
-  /*color: lightgray;*/
   background-color:lightgray;
+  border: none;
 }
 .Contacto-input-largo2 {
   width: 470px;
   color:dimgray;
   background-color:lightgray;
+  border: none;
+}
+
+#Experiencia {
+  display:flexbox;
+  margin-top: 20px;
+  /*height: 500px;*/
+  
+}
+.Experiencia-Titulo {
+  padding: 20px 0px 0px 20px;
+}
+.Experiencia-cuadros {
+  display: flex;
+  padding-bottom: 20px;
+  
+}
+.Margen-cuadro2 {
+  margin-left: 200px;
+}
+.Experiencia-texto {
+  background-color: lightgray;
+  width: 1100px;
+  padding-left: 10px;
+  margin-left: 10px;
+}
+.Experiencia-img {
+  padding-left: 0px;
 }
