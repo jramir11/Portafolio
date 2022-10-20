@@ -1,0 +1,97 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid red;
+    /*display: flex;*/
+    font-family: Arial;
+}
+.Inicio {
+    display: flex;
+    height: 600px;
+    
+}
+  
+
+.imgFotoIZQ {
+    border-radius: 50%;
+    width: 100px;
+    padding: 0px 30px;
+  }
+  .imgFotoIZQ-ul {
+    /*padding: 0px 0px 0px 10px;*/
+    text-align: center;
+  }
+
+
+  .imgFotoDer {
+    width: 1200px;
+    background-image: url(fotos/IMG_20220217_103045.jpg);
+    background-size: 100% 100%;
+    padding-left: 150px;
+  }
+  .imgFotoDer-Texto {
+    margin-top: 250px;
+    margin-left: 50px;
+    color: white;
+  }
+
+  #Conocimientos, #Educacion, #QuienSoy, #Experiencia, #TrabajosRecientes, #Contacto {
+    padding: 10px;
+    height: 850px;
+  }
+
+  
+  .InicioIZQ {
+    position: fixed;
+    left: 0px;
+    overflow-y: scroll;
+  }
+
+/*
+  .sticky {
+    position:fixed;
+    left: 0;
+    width: 100%;
+*/
+
+
+.Contacto-Titulo {
+  padding: 20px 0px 0px 200px;
+}
+
+.Inicio-img {
+  display:flexbox;
+}
+#Contacto {
+  display: flex;
+  margin-top: 20px;
+  height: 500px;
+}
+.Contacto-input {
+  display: block;
+  margin-top: 30px;
+  margin-left: 50px;
+  width: 500px;
+}   
+.Contacto-btn {
+  background-color:royalblue;
+  color: white;
+  height: 30px;
+  width: 120px;
+  padding: 5px;
+}
+.Contacto-input-color {
+  background-color: lightgray;
+  padding: 20px 10px;
+  margin-bottom: 10px;
+}
+.Contacto-input-largo {
+  width: 470px;
+  /*color: lightgray;*/
+  background-color:lightgray;
+}
+.Contacto-input-largo2 {
+  width: 470px;
+  color:dimgray;
+  background-color:lightgray;
+}
