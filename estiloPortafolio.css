@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    /*border: 1px solid red;*/
+    border: 1px solid red;
     font-family: Arial;
 }
 .Inicio {
@@ -111,7 +111,6 @@
 .Experiencia-cuadros {
   display: flex;
   padding-bottom: 20px;
-  
 }
 .Margen-cuadro2 {
   margin-left: 200px;
@@ -125,3 +124,32 @@
 .Experiencia-img {
   padding-left: 0px;
 }
+
+
+.Conocimientos-cuadros {
+  display: flex;
+  padding-bottom: 20px;
+}
+.Conocimientos-texto {
+  width: 400px;
+  /*padding-left: 10px;*/
+  margin-left: 10px;
+  padding: 0px 0px 20px 10px;
+}
+
+
+.QuienSoy-cuadro {
+  width: 300px;
+  margin-left: 10px;
+  padding: 0px 0px 20px 10px;
+  background-color: aliceblue;
+  box-shadow: 5px 10px 8px #888888;
+}
+.QuienSoy-cuadro > img {
+ padding-left:80px;
+}
+.QuienSoy-cuadro > p {
+  padding-left:60px;
+
+ }
+ 
