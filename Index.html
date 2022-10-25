@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estiloPortafolio.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="estiloPortafolio.css">
     <title>Portafio Javier Ramirez</title>
 </head>
 <body>
     
     <main class="Inicio" id="Inicio">
-        <main>  <!-- pagina inicial - cuadro IZQ-->
+        <div>  <!-- pagina inicial - cuadro IZQ-->
             <section class="InicioIZQ">
-                <img class="imgFotoIZQ" src="fotos\Foto JRQ BN.png" />
                 <br><br>
+                <img class="imgFotoIZQ" src="fotos/Foto JRQ BN.png" />
                 <strong><p>Javier Fdo. Ramirez Q.</p></strong>
-                <br><br><br><br>
+                <br><br><br>
                 <ul class="imgFotoIZQ-ul" >
                     <li><a href="#Inicio">Inicio</a></li>
                     <li><a href="#QuienSoy">Quien Soy</a></li>
@@ -27,8 +27,7 @@
                     <li><a href="#Contacto">Contacto</a></li>
                 </ul>
             </section>
-        </main> <!-- Fin pagina inicial - cuadro IZQ-->
-
+        </div> <!-- Fin pagina inicial - cuadro IZQ-->
         <div class="imgFotoDer" id="imgFotoDer">  <!-- pagina inicial - cuadro DER-->
             <section class="imgFotoDer-Texto">
                 <h3 style="font-size:40px">Soy Diseñador</h3>
@@ -40,6 +39,7 @@
             </section>
         </div>  <!-- Fin pagina inicial - cuadro DER-->
     </main>
+
 
     <main>
         <section id="QuienSoy">
@@ -107,28 +107,31 @@
 
 
         <section id="Educacion">
-            <h2 class="Margen-cuadro2">Educacion  ###CORREGIR</h2><br><br><br>
-            <div class="Separacion-cuadros">
-                <div class="Experiencia-cuadros">
-                    <article class="Experiencia-Titulo">
-                            <article class="Experiencia-img">
-                                <img src="iconos\8666628_user_check_icon.png" alt="Experiencia" height="30" style="vertical-align:middle">
-                            </article>
+            <h2 class="Margen-cuadro2">Educacion</h2><br><br><br>
+            <div class="Educacion-cuadros">
+                <div class="Educacion-cuadros">
+                    <article class="Educacion-Titulo">
+                        <p>Programacion Web Full Stack Coding Dojo</p>
                     </article>
-                    <article class="Experiencia-texto">
-                            <p>Full Stack Mean Coding Dojo  2022</p><br>
-                            <p>Aprendizaje Programacion HTML, CSS y JS con el metodo de enseñanza Codig Dojo</p>
+                    <article class="Educacion-texto">
+                            <p>Desarrollo Web Cinturon Amarillo</p>
+                            <p>con la prestigiosa academia <strong>Coding Dojo</strong></p>
+                            <ul class="Educacion-ul">
+                                <li>HTML - Front End</li>
+                                <li>CSS - Hoja de Estilos</li>
+                                <li>JavaScript</li>
+                            </ul>
                     </article>
                 </div>
-                <div  class="Experiencia-cuadros">
-                    <article class="Experiencia-Titulo">
-                            <article class="Experiencia-img">
-                                <img src="iconos\8666628_user_check_icon.png" alt="Experiencia" height="30" style="vertical-align:middle">
-                            </article>
+                <div class="Educacion-cuadros">
+                    <article class="Educacion-Titulo">
+                        <p>Ingenieria Civil Informatica</p>
                     </article>
-                    <article class="Experiencia-texto">
-                            <p>BancoEstado Chile  2019 a Hoy</p><br>
-                            <p>area PMO de BancoEstado , control y gestion de Proyectos de la gerencia GDOT</p>
+                    <article class="Educacion-texto">
+                            <p>Soy un profesional con alto compromiso con la calidad, y una disposición permanente por mantener vigentes sus conocimientos en tecnologías y gestión.</p>
+                            <p> Demuestro capacidad para aplicar el conocimiento y reconocer el emprendimiento. Aplico los principios de las matemáticas y ciencias de la ingeniería.</p>
+                            <br><p>Estoy capacitado para gestionar y desarrollar proyectos que involucran sistemas de información y productos de software que cumplan estándares de calidad</p>
+                            <p>para satisfacer requerimientos del entorno. Además, de formular y gestionar proyectos informáticos en el ámbito de las TIs orientadas a soluciones.</p>
                     </article>
                 </div>
             </div>
@@ -163,11 +166,32 @@
             </div>
         </section>
 
+
         <section id="TrabajosRecientes">
-            <h2>Trabajos Recientes</h2>
-            <a href="#Inicio">Inicio</a>
+            <h2 class="Margen-cuadro2">Trabajos Recientes</h2><br><br><br>
+            <div class="TrabajosRecientes-cuadros">
+                <section class="TrabajosRecientes-cuadro">
+                    <img src="iconos\VistaPreviaVideo.jpg" alt="Video" class="TrabajosRecientes-img">
+                    <br><p class="TrabajosRecientes-p">Vista Previa con Minuatura</p>
+                </section>
+                <section class="TrabajosRecientes-cuadro">
+                    <img src="iconos\TeimpoDojo.jpg" alt="Tiempo" class="TrabajosRecientes-img">
+                    <br><p class="TrabajosRecientes-p">Cambiar Grados y ocultar aviso</p>
+                </section>
+                <section class="TrabajosRecientes-cuadro">
+                    <img src="iconos\Calculadora4Funciones.jpg" alt="Calculadora" class="TrabajosRecientes-img">
+                    <br><p class="TrabajosRecientes-p">Opera con 4 operaciones de calculo</p>
+                </section>
+                <section class="TrabajosRecientes-cuadro">
+                    <img src="iconos\SeAcabaElTiempo.jpg" alt="Reloj" class="TrabajosRecientes-img">
+                    <br><p class="TrabajosRecientes-p">Reloj Analogo Funcionando</p>
+                </section>
+            </div>
+
         </section>
 
+
+        
         <section id="Contacto">
             <section class="Contacto-Titulo">
                 <h2>Contacto</h2>
@@ -200,7 +224,7 @@
                     <button type="submit" class="Contacto-btn" >Enviar Mensaje</button>
                 </div>
             </article>
-    </section>
+        </section>
 
     </main>
 
